@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        public: false  
+
+    Fontai\Bundle\PdfBundle\Service\Pdf:
+
+    pdf:
+        alias: Fontai\Bundle\PdfBundle\Service\Pdf
+        public: true
